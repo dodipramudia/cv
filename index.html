@@ -1,0 +1,94 @@
+<html>
+    <header>
+        <title>
+            cv
+        </title>
+        <link rel="stylesheet" href="./assets/style.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.5/typed.min.js" integrity="sha512-1KbKusm/hAtkX5FScVR5G36wodIMnVd/aP04af06iyQTkD17szAMGNmxfNH+tEuFp3Og/P5G32L1qEC47CZbUQ==" 
+        crossorigin="anonymous"></script>
+        <div class="mobile">
+        <nav class="navigasi">
+            <ul class="nama" >
+            <a href="#footer" style="text-decoration: none;"><li id="nav-nama">Nama dodi pramudia
+            
+            </li></a>
+          </ul>
+            <ul class="menu">
+                <a href="#contact"><li class="list-menu">Contact</li></a>
+                <a href="#about"><li class="list-menu">About</li></a>
+                <a href="#project"><li class="list-menu">Project</li></a>
+            </ul>
+        </nav>
+      </div>
+    </header>
+    <body>
+
+        <p><img class="jumbotron" src="./assets/images/coding.jpg" />
+            <center><h1 id="typed"></h1></center>
+        </p>
+        <script> var typed = new Typed('#typed', {
+            strings: ['Selamat datang di website kami'],
+            strings: ['Sedang belajar fronted developer wesbite'],
+            typeSpeed: 40,
+            backSpeed: 0,
+            loop: true
+          });
+            </script>
+
+        <p class="project" id="project">Project</p>
+        <h3 class="project-info"> berikut beberapa project atau hal yang saya pernah pelajari</h3>
+        <center>
+                <div class="row-project">
+                    <div class="column" style="background-color:#aaa;">
+                      <h2>mikrotik</h2>
+                      <p>Keterangan Project...</p>
+                    </div>
+                    <div class="column" style="background-color:#bbb;">
+                      <h2>Judul Projectc</h2>
+                      <p>Keterangan Project...</p>
+                    </div>
+                  </div>
+                    <br />
+                  <div class="row-project">
+                    <div class="column" style="background-color:#aaa;">
+                      <h2>Magang di PT Perusahan Grafika Indonesia </h2>
+                      <p>bekerja bagian membut gift box, right box,paper bag...</p>
+                    </div>
+                    <div class="column" style="background-color:#bbb;">
+                      <h2>Judul Project</h2>
+                      <p>Keterangan Project...</p>
+                    </div>
+                  </div>
+        </center>
+
+        <p class="about" id="about">About</p>
+        <h3 class="about-info">Tentang saya berikut penjelasan</h3>
+        <row class="profile">
+           <center><col><img src="./assets/images/profile.jpg" alt="profile" width="300" height="300" id="img"> </col></center> 
+            <p class="about-text">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.
+               Many desktop publishing packages and web page editors now use Lorem Ipsum as their<p>
+        </row>
+        <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).</p>
+
+        <p class="contact" id="contact">Contact</p>
+        <h3 class="info-contact">Jika anda tertarik dengan saya anda bisa hubungi saya di melalui kontak di bawah ini</h3> 
+        <p class="background-contact"
+        <center>
+            <col><a href ="https://youtube.com"><button class="whatsapp">WhatsApp</button></a></col>
+            <col><a href ="https://github.com"><button class="facebook">Facebook</button></a></col>
+            <col><a href ="https://github.com"><button class="github">Github</button></a></col>
+        </center>
+    </p>
+
+    </body>
+    <a href="#nav-nama" style="text-decoration: none;"><footer id="footer">
+        <h3 class="footer-nama">Nama dodi pramudia</h3></a>
+      <p id="tahun">
+         <script>
+  var d = new Date();
+  var n = d.getFullYear();
+  document.getElementById("tahun").innerHTML = n;
+        </script>
+      </p>
+    </footer>
+</html>

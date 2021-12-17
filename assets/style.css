@@ -1,0 +1,192 @@
+  /* jumbotron */
+
+.jumbotron {
+    background-color: gray;
+    height: 400px;
+    border-radius: 10px;
+    width: 100%;
+}
+
+  /* image */
+
+#img {
+    border-radius: 50%;
+    
+}
+
+.profile {
+    text-align: center;
+    background-color: blue;
+}
+
+  /* About */
+
+.about {
+    font-size: 40px;
+    font-weight: bold;
+    font-family: monospace;
+    text-align: center;
+}
+.about-info{
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.about-text{
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+  /* Project */
+
+.project {
+    font-size: 40px;
+    font-weight: bold;
+    font-family: monospace;
+    text-align: center;
+}
+
+* {
+    box-sizing: border-box;
+  }
+  
+  /* Project Colom  */
+  .column {
+    float: left;
+    min-width: 40%;
+    margin:55px;
+    height: 200px; 
+    border-radius: 5px;
+  }
+  
+  .row-project:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+.info-project{
+    background-color: gray;
+}
+
+.project-info{
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+
+.list-project{
+    padding-right:5px;
+}
+
+  /* Contact*/
+.contact{
+    font-size: 40px;
+    font-weight: bold;
+    font-family: monospace;
+    text-align: center;
+}
+
+
+.info-contact{
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+
+.background-contact{
+    background-color: blueviolet;
+    height: 60px;
+    width: 100%;
+}
+
+.whatsapp {
+    margin: 10px;
+    background-color:green ;
+    color: white;
+    height: 35px;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.facebook {
+    margin: 10px;
+    background-color:blue ;
+    color:white;
+    height: 35px;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.github {
+    margin: 10px;
+    background-color:black ;
+    color: white;
+    height: 35px;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor:pointer;
+}
+
+  /* nama */
+
+.nama {
+    float: left;
+    color: white;
+    font-size: 24px;
+    list-style: none;
+    padding-right:20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;    
+
+}
+
+#nav-nama{
+    list-style: none;
+    color: white;
+    text-decoration: none;
+}
+
+  /* menu */
+
+.menu{
+    padding:5px;
+    list-style: none;
+    font-size: 22px;
+    padding-right: 10px;
+    background-color: blueviolet;
+    height: 70px;
+    color: white;
+    width: 100%;
+    margin-top:-8px;
+}
+
+  /* list menu*/
+
+.list-menu{
+    list-style: none;
+    float: right;
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  padding: 5px;
+  padding-top: 13px;
+}
+
+  /* Footer*/
+
+#footer{
+    background-color: burlywood;
+    color: black;
+    font-size: 10px;
+    text-align: center;
+    height:100px;
+    width: 100%;
+    font-size: large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.footer-nama{
+    color:black;
+}
+
+
